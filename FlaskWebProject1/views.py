@@ -35,3 +35,8 @@ def about():
         year=datetime.now().year,
         message='Your application description page.'
     )
+
+@app.route('/hello')
+def hello():
+    return "Hello from a normal Flask endpoint!"
+
