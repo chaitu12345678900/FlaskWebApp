@@ -38,5 +38,5 @@ def about():
 
 @app.route('/hello')
 def hello():
-    return "Hello from a normal Flask endpoint!"
+    return "Hello from a Abhinay jetti Flask 2 dec 2025 "
 
